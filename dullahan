@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Dullahan",
+			"abbreviation": "Dullahan",
+			"full": "Dullahan",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Dullahan",
+		"source": "Dullahan",
+		"ability": [{
+			"str": 2,
+			"wis": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Sylvan"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "action",
+				"name": "Headless",
+				"entries": [
+					"Your head is able to take on an ethereal form as an action.  While in this form your head can produce light as if affected by the light cantrip (your choice) and can move independently of your body with a fly speed equal to your movement, you use a bonus action to move your head during combat.  While your head is separated you are perfectly able to move your body and have a sense for where it is as long as it is on the same plane.  If your head is able to see your body no creatures can gain advantage from flanking you and can be affected by spells as long as your head has line of sight on the target. Your head’s AC when detached from your body is 13 + Dexterity modifier.  Should your head take damage you must succeed on a Constitution save with a DC of 10 or the damage taken (whichever is higher).  On a failure your head falls to the ground and you have disadvantage on all attack and check rolls until reattached.  You take the full damage from the attack on a success or failure regardless."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Toughness",
+				"entries": [
+					"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Dullahan Magic",
+				"entries": [
+					"You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the knock spell once per day; you must finish a long rest in order to cast the spell again using this trait. Wisdom is your spellcasting ability for these spells."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Blue to purple skin with a luminescent mist that seems to billow constantly from their necks.  Dullahan are able to detach their heads from their body by turning it into a wisp like form that has the ability to levitate."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"sylvan": true
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
