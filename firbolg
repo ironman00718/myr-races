@@ -1,0 +1,69 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Firbolg",
+			"abbreviation": "Firbolg",
+			"full": "Firbolg",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Firbolg",
+		"source": "Firbolg",
+		"ability": [{
+			"str": 2,
+			"con": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Giant."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "action",
+				"name": "Giant's Blood",
+				"entries": [
+					"As an action, your size doubles in all dimensions, and weight is multiplied by eight. This growth increases your size to Large. Until the effect ends,you have advantage on Strength checks and Strength saving throws. Your weapons also grow to match your new size. While these weapons are enlarged, attacks with them deal 1d4 extra damage.You may use an action to dispel this effect."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Powerful Build",
+				"entries": [
+					"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Smashing Fists",
+				"entries": [
+					"Your unarmed strikes deal 1d4 + Strength bludgeoning damage."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Said to be the descendents of giants, stand taller than most races with dark striping on the arms and thighs.  Able to tap into their giant blood and double their height"
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"giant": true
+		}],
+		"skillProficiencies": [{
+
+		}]
+	}]
+}
