@@ -1,0 +1,76 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Doppel",
+			"abbreviation": "Doppel",
+			"full": "Doppel",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Doppel",
+		"source": "Doppel",
+		"ability": [{
+			"cha": 2,
+			"choose": {
+					"from": [
+			            "dex",
+			            "int"
+			            ],
+			            "count": 1
+		            }
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and two additional languages of your choice."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "action",
+				"name": "Shapechanger",
+				"entries": [
+					"As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.",
+					"You stay in the new form until you use an action to revert to your true form or until you die."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Changeling Instincts",
+				"entries": [
+					"You gain proficiency with two of the following skills of your choice: Deception, Intimidation, Insight, and Persuasion."
+				]
+			},
+		],
+		"fluff": {
+			"entries": [
+				"Normally bland and semi-featureless with blank eyes.  Have the ability to alter their physical appearance (skin color, features) and their voice at will."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+"choose": {
+					"from": [
+					          "deception",
+					          "intimidation",
+					          "insight",
+					          "persuasion"
+				          ],
+				          "count": 2
+			          }
+		}]
+	}]
+}
