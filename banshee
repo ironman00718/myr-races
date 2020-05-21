@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Banshee",
+			"abbreviation": "Banshee",
+			"full": "Banshee",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Banshee",
+		"source": "Banshee",
+		"ability": [{
+			"cha": 2,
+			"wis": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Sylvan"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "action",
+				"name": "Wail",
+				"entries": [
+					"You can use your action to violently expel sound in a 15 foot cone or a 5 x 30 foot line. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Charisma modifier. A creature takes 2d6 thunder damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain full use of this feature when you finish a long rest."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Omniglot",
+				"entries": [
+					" After listening to a language for 10 minutes you begin to be able to speak and understand this language until you take a long rest.  You are only able to use this ability to learn one language at a time."
+				]
+			},
+			{
+				"type": "action",
+				"name": "Banshee Step",
+				"entries": [
+					"You can cast the misty step spell using this trait. You can do so an amount of times equal to your Charisma modifier. You regain the ability to do so when you finish a long rest."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Pale silvery skin with black markings and black/white streaked hair.  White eyes.  Possess the ability to emit a piercing scream and temporarily learn languages after hearing them spoken."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"sylvan": true
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
