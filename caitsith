@@ -1,0 +1,76 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Caitsith",
+			"abbreviation": "Caitsith",
+			"full": "Caitsith",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Caitsith",
+		"source": "Caitsith",
+		"ability": [{
+			"dex": 2,
+			"cha": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 60,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and one additional language of your choice."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Darkvision",
+				"entries": [
+					"You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Feline Agility",
+				"entries": [
+					"Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Fang and Claw",
+				"entries": [
+					"You have natural weapons with your fangs and claws, which deal 1d4 + Strength piercing and slashing damage respectively on a hit."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Cat's Talent",
+				"entries": [
+					"You have proficiency in the Perception and Stealth skills."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Feline characteristics and agility."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+			"perception": true,
+			"stealth": true
+		}]
+	}]
+}
