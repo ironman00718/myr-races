@@ -1,0 +1,67 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Arachnia",
+			"abbreviation": "Arachnia",
+			"full": "Arachnia",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Arachnia",
+		"source": "Arachnia",
+		"ability": [{
+			"dex": 2,
+			"cha": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and one additional language of your choice."
+				],
+				"type": "entries"
+			},
+			{
+			  "type": "entries",
+			  "name": "Spider Appendages",
+			  "entries": [
+			    "Four spider-like limbs protrude from your back.  They can be used to climb up walls at your base walking speed, cling to surfaces, and manipulate objects."
+			    ]
+	    },
+			{
+				"type": "action",
+				"name": "Webbing",
+				"entries": [
+					"You are able to produce strands of webbing as an action that function similar to ropes and can adhere to surfaces. You can also cast the spell web two times. Charisma is your spellcasting ability for this spell. Once you do so, you can't cast it again until you finish a short or long rest."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Venomous Bite",
+				"entries": [
+					"Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike, and the target must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Spider like with four extra spindly appendages extending from the smaller back and six sub eyes in addition to their two primary eyes.  Able to weave webs from spinnerets in the wrist and a venomous bite."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
