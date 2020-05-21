@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Elf",
+			"abbreviation": "Elf",
+			"full": "Elf",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Elf",
+		"source": "Elf",
+		"ability": [{
+			"dex": 2,
+			"wis": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Sylvan"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Free Willed",
+				"entries": [
+					"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Snap Senses",
+				"entries": [
+					"When you roll for initiative, you can choose to gain advantage on the roll. Alternatively, if you are surprised, you may act normally on your first turn. Once you’ve used this trait, you can’t use it again until you finish a short or long rest."
+				]
+			}, {
+				"type": "entries",
+				"name": "Keen Senses",
+				"entries": [
+					"You have proficiency in the Perception skill"
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Of all the Fae the elves have spread the farthest and most abundantly away from the Faewylds."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"sylvan: true
+		}],
+		"skillProficiencies": [{
+			"perception": true
+		}]
+	}]
+}
