@@ -1,0 +1,69 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Dwarf",
+			"abbreviation": "Dwarf",
+			"full": "Dwarf",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Dwarf",
+		"source": "Dwarf",
+		"ability": [{
+			"con": 2,
+			"str": 1
+		}],
+		"size": "M",
+		"speed": 25,
+		"darkvision": 60,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Dwarven."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Darkvision",
+				"entries": [
+					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Toughness",
+				"entries": [
+					"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Dwarven Resilience",
+				"entries": [
+					"You have advantage on saving throws against being knocked prone and against being moved."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Stout and stocky with great physical resilience.  Known for their thick heads of hair with both sexes being able to produce facial hair."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"dwarven": true
+
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
