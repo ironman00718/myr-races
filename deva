@@ -1,0 +1,67 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Deva",
+			"abbreviation": "Deva",
+			"full": "Deva",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Deva",
+		"source": "Deva",
+		"ability": [{
+			"str": 2,
+      "wis": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and one additional language of your choice."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Four-Armed",
+				"entries": [
+					"You have four arms that can be used independently of one another to hold items or interact with objects."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Natural Grappler",
+				"entries": [
+					" When you make a Strength (Athletics) check to grapple you are considered to have expertise in the Athletics skill."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Multiarm Attack",
+				"entries": [
+					"On your turn, when you use your bonus action to make an offhand weapon attack you may make an additional weapon attack following the same rules."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Posses four fully developed arms that can be used independently for a variety of tasks."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
