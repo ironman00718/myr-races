@@ -1,0 +1,78 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Dokkaebi",
+			"abbreviation": "Dokkaebi",
+			"full": "Dokkaebi",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Dokkaebi",
+		"source": "Dokkaebi",
+		"ability": [{
+			"dex": 2,
+			"wis": 1
+
+		}],
+		"size": "S",
+		"speed": 30,
+		"darkvision": 60,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Goblin"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Darkvision",
+				"entries": [
+					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"type": "bonus action",
+				"name": "Hidden Step",
+				"entries": [
+					"As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Surprise Attack",
+				"entries": [
+					"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+				]
+			},
+			{
+			    "type": "reaction",
+			    "name": "Stealthy",
+			    "entries": [
+			        "You are proficient in the Stealth skill"
+		        ]
+	        }
+		],
+		"fluff": {
+			"entries": [
+				"Short with two tone chromatic skin and hair."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"goblin": true
+
+		}],
+		"skillProficiencies": [{
+		    "stealth": true
+		}]
+	}]
+}
