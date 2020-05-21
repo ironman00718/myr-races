@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Colossi",
+			"abbreviation": "Colossi",
+			"full": "Colossi",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Colossi",
+		"source": "Colossi",
+		"ability": [{
+			"cha": 2,
+      "con": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and one additional language of your choice."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Resilient Skin",
+				"entries": [
+					"You have tough, hard skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Statuesque",
+				"entries": [
+					"Your seemingly stone chiseled features grant proficiency with Deception."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Tireless",
+				"entries": [
+					"You only need to sleep 6 hours in a 72-hour period (instead of a 24-hour period) to be well rested and before suffering exhaustion."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Look like moving sculptures with skin that appears to be made of fine stone, rare gems, or luxury metals."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+      "deception": true
+		}]
+	}]
+}
