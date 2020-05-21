@@ -1,0 +1,75 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Amazon",
+			"abbreviation": "Amazon",
+			"full": "Amazon",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Amazon",
+		"source": "Amazon",
+		"ability": [{
+			"con": 2,
+			"choose": {
+					"from": [
+						"str",
+						"dex"
+						],
+						"count": 1
+					}
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and one additional language of your choice."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "reaction",
+				"name": "Dense Muscles",
+				"entries": [
+					"You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. You can use this trait as many times as your constitution modifier (minimum 1). After you use this trait, you can't use it again until you finish a long rest."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Olympic",
+				"entries": [
+					"You have proficiency in the Athletics and Acrobatics skill."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Leap",
+				"entries": [
+					"When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"All females, known for their physical prowess.  A black band of pigmentation across the eyes sets an amazon apart aside from their height and naturally muscular bodies."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+			"athletics": true,
+			"acrobatics": true
+		}]
+	}]
+}
