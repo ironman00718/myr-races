@@ -1,0 +1,77 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Cyclops",
+			"abbreviation": "Cyclops",
+			"full": "Cyclops",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Cyclops",
+		"source": "Cyclops",
+		"ability": [{
+			"wis": 2,
+			"str": 1
+
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 60,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Giant"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Darkvision",
+				"entries": [
+					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"type": "action",
+				"name": "Eye Beam",
+				"entries": [
+					" Posses a ranged attack using your Wisdom score that can be fired from your eye with a range of 120 feet.  Does 1d8 Force damage and the target makes a Strength saving throw (DC 8+Wisdom+Proficiency) or be pushed back 10 feet.  The damage increases at 5th (2d8), 11th (3d8), and 17th level (4d8).  Can be used a number of times equal to your Wisdom modifier and recharges on a short or long rest."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Oculus",
+				"entries": [
+					"You have advantage on any Perception and Investigation checks that rely on sight..  Additionally, whenever you make one of the above checks you are able to readily identify illusory effects including invisibility."
+				]
+			},
+			{
+			    "type": "entries",
+			    "name": "Protective Film",
+			    "entries": [
+			        "Your eye has a protective lens that prevents it from being damaged.  You are immune to being blinded."
+		        ]
+	        }
+		],
+		"fluff": {
+			"entries": [
+				"Possess a single eye that is capable of amazing sight based abilities such as perception, distance, and seeing through illusions."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"giant": true
+
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
