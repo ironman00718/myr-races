@@ -1,0 +1,82 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Gargoyle",
+			"abbreviation": "Gargoyle",
+			"full": "Gargoyle",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Gargoyle",
+		"source": "Gargoyle",
+		"ability": [{
+			"str": 2,
+			"choose": {
+			        "from": [
+			            "con",
+			            "wis"
+			            ],
+			            "count": 1
+		            }
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 60,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Orc."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Darkvision",
+				"entries": [
+					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"type": "action",
+				"name": "Claws",
+				"entries": [
+					"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier instead of bludgeoning damage normal for an unarmed strike."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Glide",
+				"entries": [
+					"Your wings are not light enough to grant flight, but do allow you to glide safely from great heights. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 15 feet horizontally for every 1 foot you descend."
+				]
+			},
+			{
+			    "type": "reaction",
+			    "name": "Stone's Endurance",
+			    "entries": [
+			        "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. You can use this trait as many times as your constitution modifier (minimum 1). You regain uses of this feature when you finish a long rest."
+		        ]
+	        }
+		],
+		"fluff": {
+			"entries": [
+				"Imposing with varying shades of skin.  Possess clawed hands and large wings that allow them to glide."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"orc": true
+
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
