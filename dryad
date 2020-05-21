@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Dryad",
+			"abbreviation": "Dryad",
+			"full": "Dryad",
+			"authors": [
+				"JohnOderyn"
+			],
+			"version": "1.0.0",
+			"url": "https://docs.google.com/document/d/1SFrkPqrT4Ip4N2d10yDmKyS6aRfSHHDdqjgnFypeKdU/",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Dryad",
+		"source": "Dryad",
+		"ability": [{
+			"wis": 2,
+			"dex": 1
+		}],
+		"size": "M",
+		"speed": 30,
+		"darkvision": 0,
+		"entries": [{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Sylvan"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Nature Magic",
+				"entries": [
+					"You know two cantrips of your choice from the Druid spell list. Wisdom is your spellcasting ability for them."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Mask of the Wild",
+				"entries": [
+					"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Timberwalk",
+				"entries": [
+					"Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"Light green skin and hair allude to the dryad’s innate connection to the natural world."
+			]
+		},
+		"languageProficiencies": [{
+			"common": true,
+			"sylvan": true
+		}],
+		"skillProficiencies": [{
+		}]
+	}]
+}
